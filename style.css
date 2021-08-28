@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+.wrapper {
+  margin: 0 auto;
+  width: 80%;
+  padding-top: 70px;
+}
+body {
+  background: #ff797a;
+  color: #fff;
+}
+.wrapper-div {
+  height: 600px;
+  position: relative;
+}
+
+.wrapper-quote {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+h3 {
+  font-size: 5.9rem;
+  font-weight: bold;
+  letter-spacing: 0.09px;
+}
+p {
+  font-size: 1.6rem;
+}
+.claim {
+  text-decoration-line: none;
+  background-color: #5d54a3;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 15px;
+}
+.forms {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 15px 40px rgba(11, 56, 82, 0.1);
+  padding: 30px;
+}
+i {
+  color: #ff7774;
+  font-size: 30px;
+}
+.forms-wrapper {
+  margin: 0 auto;
+  width: 95%;
+  padding: 20px;
+}
+input {
+  width: 100%;
+  border: 3px solid #cc8584;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  color: #cc8584;
+}
+::placeholder {
+  color: #737376;
+  font-weight: bold;
+}
+button {
+  background: #77e2b4;
+  width: 100%;
+  padding: 20px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 15px 40px rgba(11, 56, 82, 0.1);
+  font-size: 1.9rem;
+  text-transform: uppercase;
+}
+span {
+  color: #cc8584;
+}
+.agreement {
+  color: #b5b3be;
+  text-align: center;
+}
+#alert {
+  position: absolute;
+  right: 95px;
+  margin-top: 20px;
+  display: none;
+}
+#notify-name,
+#notify-last-name,
+#notify-email,
+#notify-password {
+  color: #cc8584;
+  text-align: end;
+  margin-top: -10px;
+  padding-bottom: 10px;
+}
+@media (max-width: 768px) {
+  .wrapper-div {
+    height: 340px;
+    position: relative;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 3.5rem;
+  }
+  .wrapper {
+    margin: 0 auto;
+    width: 98%;
+  }
+  .forms-wrapper {
+    margin: 0 auto;
+    width: 98%;
+    padding: 0px;
+  }
+  .agreement {
+    color: #b5b3be;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  button {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper row ">
+        <div class="col-12 col-md-6 wrapper-div">
+            <div class="wrapper-quote">
+                <h3>Learn to code by watching others</h3>
+                <p>See how experienced developers solve problems inreal time. watching scripted tutorials is great, but understanding how developer think is valuable</p>
+            </div>
+            
+        </div>
+        <form onsubmit="return validate()" class="col-12 col-md-6">
+            <p class="claim">Try it for 7 days then $20/mo. thereafter</p>
+            <div class="forms">
+                <div class="forms-wrapper">
+                    <div class="position-relative">
+                        <input type="text"  id="first-name"  placeholder="First Name">
+                        <i class="fas fa-exclamation-circle" id="alert"></i>
+                    </div>
+                    <div id="notify-name"></div>
+                    <div class="position-relative">
+                        <input type="text"  id="last-name"  placeholder="Last Name">
+                        <i class="fas fa-exclamation-circle" id="alert"></i>
+                    </div>
+                    <div id="notify-last-name"></div>
+                    <div class="position-relative">
+                        <input type="email"  id="email"  placeholder="Email Address">
+                        <i class="fas fa-exclamation-circle " id="alert"></i>
+                    </div>
+                    <div id="notify-email"></div>
+                    <div class="position-relative">
+                        <input type="password"  id="password"  placeholder="Password">
+                        <i class="fas fa-exclamation-circle " id="alert"></i>
+                    </div>
+                    <div id="notify-password"></div>
+                    <button id="submit" value="submit">Claim Your Free Trial</button>
+                </div>
+                <p class="agreement">By clcking this button you have agreed to our <span>Terms and Services</span> </p>
+            </div>
+            
+        </form>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
