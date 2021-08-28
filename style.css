@@ -87,7 +87,7 @@ span {
   color: #b5b3be;
   text-align: center;
 }
-#alert {
+#alert, #alert1, #alert2, #alert3 {
   position: absolute;
   right: 95px;
   margin-top: 20px;
